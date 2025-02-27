@@ -1,8 +1,8 @@
-package Aula03;
+package Aula03LP1;
 
 import java.util.Scanner;
 
-public class ex2 {
+public class ex1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class ex2 {
 
         System.out.println("Palavras Digitadas: ");
 
-        String string_palavra = palavra3 + " " + palavra2 + " " + palavra1;
+        String string_palavra = palavra1 + " " + palavra2 + " " + palavra3;
 
         System.out.println(string_palavra);
 
