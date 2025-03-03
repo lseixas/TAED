@@ -14,6 +14,7 @@ public class Repeater {
 
         for(int i = 0; i < repeat_times; i++) {
 
+            System.gc();
             ArrayList<long[]> result = method.get();
             N.add(result.get(0));
             time.add(result.get(1));
