@@ -25,9 +25,10 @@ public class ex4 {
             int out_lat = N[a];
             long[][] initial_matrix = CreateMatrix.createMatrix(out_lat, out_lat, -1);
 
-            long start_time = System.nanoTime();
             long compar = 0;
             long opr = 0;
+
+            long start_time = System.nanoTime();
 
             int lateral = N[a];
             opr++;

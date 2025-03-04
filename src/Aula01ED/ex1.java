@@ -36,12 +36,16 @@ public class ex1 {
 
             int compar = 0;
             int aritOp = 0;
-            int[] array = new int[n];
 
+            int[] array = new int[n];
+            aritOp++;
+
+            aritOp++;
             for(int i = 0; i < n; i++) {
                 compar++;
-                aritOp++;
+
                 array[i] = 0;
+                aritOp++;
             }
 
             long endTime = System.nanoTime();

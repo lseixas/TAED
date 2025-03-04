@@ -28,18 +28,19 @@ public class ex3 {
             long startTime = System.nanoTime();
 
             double[][] matrix = new double[N[i]][M[i]];
+            opr++;
 
+            opr++;
             for(int row = 0; row < N[i]; row++) {
                 compar++;
 
+                opr++;
                 for(int col = 0; col < M[i]; col++) {
                     compar++;
 
                     matrix[row][col] = -1;
                     opr++;
-
                 }
-
             }
 
             long endTime = System.nanoTime();

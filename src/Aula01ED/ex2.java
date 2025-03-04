@@ -30,17 +30,23 @@ public class ex2 {
 
             ///
 
+            long aritOp = 0;
+            long compar = 0;
+
             long startTime = System.nanoTime();
 
-            int compar = 0;
-            int aritOp = 0;
             int[] array = new int[n];
+            aritOp++;
             int[] copy_arr = new int[n];
+            aritOp++;
 
+
+            aritOp++;
             for (int i = 0; i < n; i++) {
                 compar++;
-                aritOp++;
+
                 copy_arr[i] = array[i];
+                aritOp++;
             }
 
             long endTime = System.nanoTime();
